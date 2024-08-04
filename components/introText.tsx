@@ -33,8 +33,8 @@ const IntroText = () => {
       <div className="flex flex-col xl:flex-row items-center gap-8">
         <Link
           target="_blank"
-          href="/assets/resume/cv.pdf"
-          download="daniel-berneisch-cv"
+          href="/assets/resume/Daniel-Berneisch-CV.pdf"
+          download="Daniel-Berneisch-CV.pdf"
         >
           <Button
             variant="outline"
