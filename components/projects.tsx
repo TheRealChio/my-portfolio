@@ -39,7 +39,7 @@ const Projects = () => {
         opacity: 1,
         transition: { delay: 0.5, duration: 0.5, ease: "easeIn" },
       }}
-      className="h-screen flex items-center justify-center py-12 xl:py-0"
+      className="xl:h-screen flex items-center justify-center py-12 xl:py-0"
     >
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-7">
