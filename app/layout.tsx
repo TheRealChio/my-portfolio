@@ -34,7 +34,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={jetbrainsMono.variable}>
         <Header />
-        {children}
+        <div className="mt-32 xl:mt-0">{children}</div>
       </body>
     </html>
   );

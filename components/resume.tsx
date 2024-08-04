@@ -22,7 +22,7 @@ const Resume = () => {
         opacity: 1,
         transition: { delay: 0.5, duration: 0.5, ease: "easeIn" },
       }}
-      className="h-screen flex items-center justify-center py-12 xl:py-0"
+      className="xl:h-screen flex items-center justify-center py-12 xl:py-0"
       id="resume"
     >
       <div className="container mx-auto">
@@ -125,7 +125,7 @@ const Resume = () => {
                   {skills.description}
                 </p>
 
-                <ul className="flex flex-wrap gap-4 xl:gap-8">
+                <ul className="flex flex-wrap justify-center xl:justify-start gap-4 xl:gap-8">
                   {skills.items.map((item) => (
                     <li key={item.title}>
                       <TooltipProvider delayDuration={100}>

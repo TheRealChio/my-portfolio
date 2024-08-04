@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const Home = () => {
   return (
-    <section className="h-screen flex flex-col justify-center" id="home">
+    <section className="xl:h-screen flex flex-col justify-center" id="home">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* intro text */}
