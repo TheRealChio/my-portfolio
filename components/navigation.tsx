@@ -1,8 +1,3 @@
-"use client";
-
-// hooks
-import { useState } from "react";
-
 // utils
 import { links } from "@/constants";
 import { cn } from "@/lib/utils";
@@ -16,11 +11,15 @@ import { CiMenuFries } from "react-icons/ci";
 
 interface NavigationProps {
   isMobile?: boolean;
+  activeLink: string;
+  setActiveLink: (path: string) => void;
 }
 
-const Navigation = ({ isMobile = false }: NavigationProps) => {
-  const [activeLink, setActiveLink] = useState<string>("#home");
-
+const Navigation = ({
+  isMobile = false,
+  activeLink,
+  setActiveLink,
+}: NavigationProps) => {
   return (
     <>
       {/* desktop navigation */}
