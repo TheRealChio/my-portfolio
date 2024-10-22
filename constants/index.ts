@@ -190,7 +190,7 @@ export const projects = [
       { title: "Framer Motion", icon: "framer" },
     ],
     image: "/assets/work/1691069324-web-kkl.webp",
-    link: "https://kkl-luzern-platform-b2c.vercel.app/",
+    link: "https://www.kkl-luzern.ch/",
   },
   {
     num: "02",
